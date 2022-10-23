@@ -7,7 +7,7 @@
             <hr class="my-4">
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
             <p class="lead">
-                <router-link to="/article" class="btn btn-primary btn-more btn-sm" href="#" role="button">Read full article</router-link>
+                <router-link to="/article" class="btn btn-primary btn-more btn-sm" href="#" role="button">Weiterlesen</router-link>
             </p>
         </div>
     </div>
