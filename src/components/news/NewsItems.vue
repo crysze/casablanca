@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1 class="mt-4 mb-4"><span id="guillemet">»</span> News</h1>
-        <div v-for="heading in headings" :key="heading" class="jumbotron border rounded p-4 my-4 mx-auto w-75">
+        <div v-for="heading in headings" :key="heading" class="jumbotron border rounded p-4 my-4 mx-auto">
             <h3>{{ heading }}</h3>
             <p class="lead">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
             <hr class="my-4">
