@@ -62,6 +62,7 @@ export default {
 
   .jumbotron {
       background-color: rgb(248, 249, 250);
+      width: 75%;
   }
 
   .jumbotron:hover {
