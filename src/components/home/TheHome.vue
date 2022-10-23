@@ -60,4 +60,8 @@ export default {
   a:hover {
     color: grey;
   }
+
+  ol {
+    list-style-position: inside;
+  }
 </style>
