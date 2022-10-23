@@ -9,7 +9,7 @@
         <label class="pt-2">Nachricht</label>
         <textarea v-model="msg" class="form-control" name="message" placeholder="Ihre Nachricht an uns" required></textarea>
         <br>
-        <input v-if="!emailSubmitted" class="btn btn-primary btn-cl" type="submit" value="Send">
+        <input v-if="!emailSubmitted" class="btn btn-primary btn-cl" type="submit" value="Absenden">
         <div v-if="emailSubmitted" class="spinner-border" role="status">
             <span class="visually-hidden">Loading...</span>
         </div>
