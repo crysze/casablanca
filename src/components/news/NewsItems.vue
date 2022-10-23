@@ -25,13 +25,19 @@ export default {
 
 <style scoped>
 
-.btn-more {
-    background-color: #990000;
-    border-color: white;
-}
+    .btn-more {
+        background-color: #990000;
+        border-color: white;
+    }
 
-.btn-more:hover {
-    background-color: grey;
-    border-color: white;
-}
+    .btn-more:hover {
+        background-color: grey;
+        border-color: white;
+    }
+
+    @media screen and (max-width: 600px) {
+        .jumbotron {
+            width: 90%;
+        }
+    }
 </style>
